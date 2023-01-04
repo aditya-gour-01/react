@@ -1,34 +1,52 @@
-import web from "../src/animate.jpeg";
-import app from "../src/animate.jpeg";
-import android from "../src/animate.jpeg";
-import digital from "../src/animate.jpeg";
-import marketing from "../src/animate.jpeg";
-import software from "../src/animate.jpeg";
+import cement from "../src/12.jpeg";
+import waterproof from "../src/proof1.jpeg";
+import paint from "../src/paint.jpeg";
+import steel from "../src/images.jpeg";
+import birla from "../src/whi.jpeg";
+import pipes from "../src/astral.jpeg";
 
 const Sdata=[
     {
-        imgsrc:web,
-        title:"web development",
+        id:1,
+        imgsrc:cement,
+        title:"Ultratech Cement",
+        content:"Ultratech Cement is India's no.1 Cement",
+        link:"https://www.ultratechcement.com/",
     },
     {
-        imgsrc:app,
-        title:"App development",
+        id:2,
+        imgsrc:waterproof,
+        title:"Ultratech Waterproof",
+        content:"Waterproof for better strength",
+        link:"https://www.ultratechcement.com/products/ultratech-building-products/wp200#:~:text=UltraTech%20Weather%20Pro%20WP%2B200,every%20part%20of%20your%20home.",
     },
     {
-        imgsrc:android,
-        title:"Android development",
+        id:3,
+        imgsrc:paint,
+        title:"Berger Paints",
+        content:"Paints are like clothes ",
+        link:"https://www.bergerpaints.com/express-painting/?utm_source=google-SEM&utm_campaign=ET-001-Search-Brand&utm_medium=ET-001-A01-Core&utm_keyword=berger%20paints&gclid=Cj0KCQiA5NSdBhDfARIsALzs2EBlFWabVlKY9CsvysC65QBlIUBFvst_r1BSrO60JSNlchYx1rdNr6kaAl-1EALw_wcB",
     },
     {
-        imgsrc:software,
-        title:"Software development",
+        id:4,
+        imgsrc:steel,
+        title:"Steel",
+        content:"Steel is the bones of ",
+        link:"https://www.polaad.in/",
     },
     {
-        imgsrc:marketing,
-        title:"Marketing development",
+        id:5,
+        imgsrc:birla,
+        title:"Birla White Putty",
+        content:"Putty for the extra brightness of life",
+        link:"https://www.birlawhite.com/en/wallcare-putty",
     },
     {
-        imgsrc:digital,
-        title:"Digital development",
+        id:6,
+        imgsrc:pipes,
+        title:"Astral CPVC Pipe",
+        content:"Pipe for the flow of water",
+        link:"https://www.astralpipes.com/",
     },
 ]
 export default Sdata;
